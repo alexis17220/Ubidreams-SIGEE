@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "Views": ["Views"],
+      "Navigation": ["Navigation"],
+      "Redux": ["Redux"],
+      "Resources": ["Resources"],
+      "Sagas": ["Sagas"],
+      "Services": ["Services"],
+      "Theme": ["Theme"],
+      "Variables": ["Theme/Variables"],
+      "Fonts": ["Theme/Fonts"],
+      "Images": ["Images"],
+      "Config": ["Config"],
+      "I18n": ["I18n"],
+      "Components": ["Components"],
+      "Helpers": ["Helpers"],
+
+      "Views/*": ["Views/*"],
+      "Navigation/*": ["Navigation/*"],
+      "Redux/*": ["Redux/*"],
+      "Resources/*": ["Resources/*"],
+      "Sagas/*": ["Sagas/*"],
+      "Services/*": ["Services/*"],
+      "Theme/*": ["Theme/*"],
+      "Variables/*": ["Theme/Variables/*"],
+      "Fonts/*": ["Theme/Fonts/*"],
+      "Images/*": ["Images/*"],
+      "Config/*": ["Config/*"],
+      "I18n/*": ["I18n/*"],
+      "Components/*": ["Components/*"],
+      "Helpers/*": ["Helpers/*"]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

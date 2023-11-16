@@ -1,0 +1,75 @@
+/* Variables */
+
+@import url('~Variables/variables.less');
+
+/* StrengthIndicator styles */
+
+.ant-popover {
+  min-width: auto !important;
+
+  .strength-indicator {
+    //width: 250px;
+
+    &-status {
+      &-weak {
+        color: @red;
+      }
+
+      &-fair {
+        color: @yellow;
+      }
+
+      &-good {
+        color: @green;
+      }
+
+      &-strong {
+        color: @green;
+      }
+    }
+
+    &-progress {
+      &-weak {
+        .ant-progress-bg {
+          background-color: @red;
+        }
+      }
+
+      &-fair {
+        .ant-progress-bg {
+          background-color: @yellow;
+        }
+      }
+
+      &-good {
+        .ant-progress-bg {
+          background-color: @green;
+        }
+      }
+
+      &-strong {
+        .ant-progress-bg {
+          background-color: @green;
+        }
+      }
+    }
+
+    &-suggestions {
+      margin: 0;
+      padding: 0;
+      margin-top: 1em;
+
+      &-item {
+        margin: 0;
+        padding: 0;
+        margin-left: 16px;
+      }
+    }
+
+    &-warning {
+      margin: 0;
+      padding: 0;
+      margin-top: 1em;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+/* Variables */
+
+@import url('~Variables/variables.less');
+
+/* Screen styles */
+
+.screen.login {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ant-alert {
+    margin-bottom: 10px;
+  }
+
+  .ant-card {
+    width: 500px;
+
+    &-actions {
+      .anchor {
+        display: flex;
+      }
+    }
+
+    &-head {
+      text-align: center;
+
+      &-title {
+        overflow: visible;
+
+        .logo {
+          height: 8em;
+          margin-top: -5em;
+        }
+      }
+    }
+
+    &-body {
+      .hidden {
+        display: none;
+      }
+    }
+  }
+}

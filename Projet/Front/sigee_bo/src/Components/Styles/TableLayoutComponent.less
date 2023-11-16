@@ -1,0 +1,147 @@
+/* --------------------------------- */
+/* == Variables                      */
+/* --------------------------------- */
+
+@import url('~Variables/variables.less');
+
+/* --------------------------------- */
+/* == Component styles               */
+/* --------------------------------- */
+
+.component.table-layout {
+  header {
+    display: flex;
+    align-items: center;
+
+    & > * {
+      flex: 1;
+    }
+
+    .ant-input-search {
+      flex: initial;
+    }
+
+    .ant-btn-group {
+      margin-left: 1em;
+    }
+
+    .buttons {
+      line-height: 3em;
+    }
+  }
+
+  footer {
+    display: flex;
+    margin-top: 1em;
+
+    & > * {
+      flex: 1;
+    }
+
+    .ant-btn-group {
+      margin-left: 1em;
+    }
+  }
+  tbody{
+    background-color: white;
+  }
+
+  main {
+    .table-layout-table:not(:last-of-type) {
+      margin-bottom: 1em;
+    }
+
+    &,
+    .ant-table-wrapper,
+    .ant-spin-nested-loading {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ant-spin-dot-item{
+      color: @primary-color;
+      background-color: @primary-color;
+    }
+
+    ul.ant-table-pagination.ant-pagination {
+      position: relative;
+      margin: 1em 0;
+      z-index: 1;
+    }
+
+    .ant-table {
+      display: inline;
+      overflow-x: auto;
+
+      &-title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        padding: 0;
+        border: none;
+
+        p {
+          display: flex;
+          margin: 0;
+          margin-top: 1em;
+          height: 32px;
+          align-items: center;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      &-tbody > tr:last-of-type > td {
+        border: none;
+      }
+
+      &-content {
+        border: 1px solid @border-color;
+
+        th {
+          vertical-align: bottom;
+        }
+
+        td {
+          span.anchor,
+          div.anchor {
+            cursor: pointer;
+
+            &.primary {
+              color: @primary-color;
+            }
+
+            &.delete {
+              color: @red;
+            }
+
+            span {
+              margin-left: 0.5ch;
+            }
+          }
+        }
+      }
+
+      &-expanded-row {
+        .ant-table {
+          border-radius: 0;
+          display: block;
+          border-top: none;
+          border-right: none;
+
+          &-body {
+            margin: 0;
+          }
+
+          &-content {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

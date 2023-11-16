@@ -1,0 +1,1783 @@
+{
+  "common": {
+    "version": "App v.{{ version }}",
+    "ok": "Ok",
+    "yes": "Oui",
+    "no": "Non",
+    "calculate": "Calculer le prix",
+    "noData": "Aucune donnée",
+    "reset": "Réinitialiser",
+    "actions": "Actions",
+    "update": "Mettre à jour",
+    "used": "Utilisé",
+    "required": "Obligatoire",
+    "cancel": "Annuler",
+    "retry": "Réessayer",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "back": "Retour",
+    "add": "Ajouter",
+    "create": "Créer",
+    "search": "Rechercher",
+    "clear": "Réinitialiser",
+    "month": "Mois",
+    "days": "Jours",
+    "edit": "Modifier",
+    "export": "Exporter des données",
+    "import": "Importer des données",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "deleting": "Suppression",
+    "restoring": "Restauration",
+    "retrieve-password": "Récupérer le mot de passe",
+    "retrieve-pincode": "Récupérer le code PIN",
+    "forgotten-password": "Mot de passe oublié",
+    "login": "Connexion",
+    "loading": "Chargement en cours...",
+    "display-more": "Afficher plus",
+    "enable": "Activer",
+    "enabled": "Activé",
+    "disable": "Désactiver",
+    "disabled": "Désactivé",
+    "archive": "Archiver",
+    "restore": "Restaurer",
+    "none": {
+      "female": "Aucune",
+      "male": "Aucun"
+    },
+    "action": "Action",
+    "modular": {
+      "label": "MODULAR",
+      "value": "MODULAR"
+    },
+    "bulk": {
+      "label": "BULK",
+      "value": "BULK"
+    },
+    "unauthorized": {
+      "message": "Vous devez confirmer votre identité pour consulter cette page.",
+      "button": "Confirmer mon accès"
+    }
+  },
+  "screen": {
+    "profile": "Mon profil"
+  },
+  "dropdown": {
+    "account": "Mon compte",
+    "logout": "Déconnexion"
+  },
+  "success": {
+    "users": {
+      "create": "Utilisateur créé.",
+      "update": "Utilsateur modifié.",
+      "archive": "Utilisateur(s) archivé(s).",
+      "reset": "Utilisateur réinitialisé",
+      "archives": {
+        "restore": "Utilisateur(s) restauré(s)"
+      }
+    },
+    "appellation": {
+      "create": "Appellation crée",
+      "update": "Appellation modifié.",
+      "archive": "Appellation(s) archivé(s)",
+      "archives": {
+        "restore": "Appellation(s) restauré(s)"
+      }
+    },
+    "classification": {
+      "create": "Classification crée",
+      "update": "Classification modifié.",
+      "archive": "Classification(s) archivé(s)",
+      "archives": {
+        "restore": "Classification(s) restauré(s)"
+      }
+    },
+    "commande": {
+      "create": "Commande créé.",
+      "update": "Commande modifié.",
+      "archive": "Commande(s) archivé(s)",
+      "archives": {
+        "restore": "Commande(s) restauré(s)"
+      }
+    },
+    "document": {
+      "create": "Document créé.",
+      "update": "Document modifié.",
+      "archive": "Document(s) archivé(s)",
+      "archives": {
+        "restore": "Document(s) restauré(s)"
+      }
+    },
+    "etatCommande": {
+      "create": "Etat Commande créé.",
+      "update": "Etat Commande modifié.",
+      "archive": "Etat Commande(s) archivé(s)",
+      "archives": {
+        "restore": "Etat Commande(s) restauré(s)"
+      }
+    },
+    "equipementE": {
+      "create": "Equipement Engin créé.",
+      "update": "Equipement Engin  modifié.",
+      "archive": "Equipement Engin(s) archivé(s)",
+      "archives": {
+        "restore": "Equipement Engin(s) restauré(s)"
+      }
+    },
+    "engin": {
+      "create": "Engin créé.",
+      "update": "Engin modifié.",
+      "archive": "Engin(s) supprimé(s)."
+    },
+    "equipements": {
+      "create": "Equipement créé.",
+      "update": "Equipement modifié.",
+      "archive": "Equipement(s) archivé(s)",
+      "archives": {
+        "restore": "Equipement(s) restauré(s)"
+      }
+    },
+    "equipeur": {
+      "create": "Equipeur créé.",
+      "update": "Equipeur modifié.",
+      "archive": "Equipeur(s) archivé(s)",
+      "archives": {
+        "restore": "Equipeur(s) restauré(s)"
+      }
+    },
+    "categories": {
+      "create": "Catégorie créé.",
+      "update": "Catégorie modifié.",
+      "delete": "Catégorie(s) supprimée(s)"
+    },
+    "login": {
+      "reset": "Mot de passe réinitialisé.",
+      "code": "Code envoyé, consultez votre boîte mail."
+    },
+    "profile": {
+      "update": "Votre profile a été mis à jour."
+    },
+    "email": {
+      "update": "Votre adresse email a été mise à jour."
+    },
+    "password": {
+      "update": "Mot de passe modifié."
+    },
+    "proprietaire": {
+      "create": "Propriétaire créé.",
+      "update": "Propriétaire modifié.",
+      "delete": "Propriétaire(s) supprimée(s)"
+    },
+    "gamme": {
+      "create": "Gamme créé.",
+      "update": "Gamme modifié.",
+      "delete": "Gamme(s) supprimée(s)"
+    },
+    "marque": {
+      "create": "Marque créé.",
+      "update": "Marque modifié.",
+      "delete": "Marque(s) supprimée(s)"
+    },
+    "etatEngin": {
+      "create": "Etat Engin créé.",
+      "update": "Etat Engin modifié.",
+      "delete": "Etat Engin(s) supprimée(s)"
+    },
+    "typeOps": {
+      "create": "Type OPS créé.",
+      "update": "Type OPS modifié.",
+      "delete": "Type OPS supprimée(s)"
+    },
+    "typeTech": {
+      "create": "Type Tech créé.",
+      "update": "Type Tech modifié.",
+      "delete": "Type Tech supprimée(s)"
+    },
+    "typeServ": {
+      "create": "Type Servitude créé.",
+      "update": "Type Servitude modifié.",
+      "delete": "Type Servitude supprimée(s)"
+    },
+    "statut": {
+      "create": "Statut créé.",
+      "update": "Statut modifié.",
+      "delete": "Statut supprimée(s)"
+    },
+    "affectPhy": {
+      "create": "Affectation Physique créé.",
+      "update": "Affectation Physique modifié.",
+      "delete": "Affectation Physique supprimée(s)"
+    },
+    "affectAdm": {
+      "create": "Affectation Administrative créé.",
+      "update": "Affectation Administrative modifié.",
+      "delete": "Affectation Administrative supprimée(s)"
+    },
+    "affectation": {
+      "create": "Affectation créé.",
+      "update": "Affectation modifié.",
+      "delete": "Affectation supprimée(s)"
+    },
+    "catAffect": {
+      "create": "Catégorie Affectation créé.",
+      "update": "Catégorie Affectation modifié.",
+      "delete": "Catégorie Affectation supprimée(s)"
+    },
+    "attelage": {
+      "create": "Type Attelage créé.",
+      "update": "Type Attelage modifié.",
+      "delete": "Type Attelage supprimée(s)"
+    },
+    "equipement": {
+      "create": "Equipements créé.",
+      "update": "Equipements modifié.",
+      "delete": "Equipements supprimée(s)"
+    },
+    "reparation": {
+      "create": "Réparation créé.",
+      "update": "Réparation modifié.",
+      "delete": "Réparation supprimée(s)"
+    },
+    "intervention": {
+      "create": "Intervention créé.",
+      "update": "Intervention modifié.",
+      "delete": "Intervention supprimée(s)"
+    },
+    "intervenant": {
+      "create": "Intervenant créé.",
+      "update": "Intervenant modifié.",
+      "delete": "Intervenant supprimée(s)"
+    },
+    "type": {
+      "create": "Type Intervenant créé.",
+      "update": "Type Intervenant modifié.",
+      "delete": "Type Intervenant supprimée(s)"
+    }
+  },
+  "errors": {
+    "login": {
+      "reset": "Erreur lors de la réinitilisation du mot de passe.",
+      "email": "Connexion non autorisée.",
+      "not-found": "Utilisateur introuvable.",
+      "code": "Erreur lors de l'envoi du code.",
+      "incorrect-credentials": "Identifiants incorrects.",
+      "default": "Erreur de connexion.",
+      "access-denied": "Accès refusé.",
+      "checkLogin": "Erreur lors de la vérification.",
+      "create": "Erreur lors de la modification du mot de passe.",
+      "bad-credentials": "Identifiant ou mot de passe incorrect."
+    },
+    "form": "Les informations fournies sont incomplètes ou erronnées.",
+    "users": {
+      "fetch": "Erreur lors de la récupération des utilisateurs.",
+      "create": "Erreur lors de la création de l'utilisateur.",
+      "update": "Erreur lors de la modification de l'utilisateur.",
+      "archive": "Erreur lors de l'archivage de l'utilisateur.",
+      "reset": "Erreur lors de la réinitialisation de l'utilisateur.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des utilisateurs archivés.",
+        "restore": "Erreur lors de la restauration des utilisateurs."
+      }
+    },
+    "reparationE": {
+      "fetch": "Erreur lors de la récupération des réparations engin."
+    },
+    "interventionE": {
+      "fetch": "Erreur lors de la récupération des Interventions engin."
+    },
+    "roles": {
+      "fetch": "Erreur lors de la récupération des rôles."
+    },
+    "appellation": {
+      "fetch": "Erreur lors de la récupération des Appellations.",
+      "create": "Erreur lors de la création du Appellation.",
+      "update": "Erreur lors de la modification du Appellation",
+      "archive": "Erreur lors de l'archivage d'un ou des Appellation",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Appellation archivés.",
+        "restore": "Erreur lors de la restauration des Appellation."
+      }
+    },
+    "classification": {
+      "fetch": "Erreur lors de la récupération des Classification.",
+      "create": "Erreur lors de la création du Classification.",
+      "update": "Erreur lors de la modification du Classification",
+      "archive": "Erreur lors de l'archivage d'un ou des Classification",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Classifications archivés.",
+        "restore": "Erreur lors de la restauration des Classifications."
+      }
+    },
+    "profile": {
+      "get": "Erreur lors de la récupération des données du profil.",
+      "update": "Erreur lors de la modification du profil."
+    },
+    "email": {
+      "update": "Erreur lors de la modification de l'adresse email."
+    },
+    "categories": {
+      "fetch": "Erreur lors de la récupération des catégories.",
+      "create": "Erreur lors de la création de la catégorie.",
+      "update": "Erreur lors de la modification de la catégorie.",
+      "delete": "Erreur lors de la suppression d'une ou des catégories."
+    },
+    "engin": {
+      "fetch": "Erreur lors de la récupération des engins.",
+      "create": "Erreur lors de la création d'un engin.",
+      "update": "Erreur lors de la modification d'un engin.",
+      "delete": "Erreur lors de la suppression  d'un ou des engins."
+    },
+    "noAccess": {
+      "title": "Permission refusé",
+      "description": "Votre rôle n'a pas accès a ces informations",
+      "solution": "Veuillez contacter votre administrateur"
+    },
+    "commande": {
+      "fetch": "Erreur lors de la récupération des Commandes.",
+      "create": "Erreur lors de la création des Commandes.",
+      "update": "Erreur lors de la modification des Commandes.",
+      "archive": "Erreur lors de l'archivage d'un ou des Commandes.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Commandes archivés.",
+        "restore": "Erreur lors de la restauration des Commandes."
+      }
+    },
+    "document": {
+      "fetch": "Erreur lors de la récupération des Documents.",
+      "create": "Erreur lors de la création des Documents.",
+      "update": "Erreur lors de la modification des Documents.",
+      "archive": "Erreur lors de l'archivage d'un ou des Documents.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Documents archivés.",
+        "restore": "Erreur lors de la restauration des Documents."
+      }
+    },
+    "etatCommande": {
+      "fetch": "Erreur lors de la récupération des Etats Commandes.",
+      "create": "Erreur lors de la création des Etats Commandes.",
+      "update": "Erreur lors de la modification des Etats Commandes.",
+      "archive": "Erreur lors de l'archivage d'un ou des Etats Commandes.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Etats Commandes archivés.",
+        "restore": "Erreur lors de la restauration des Etats Commandes."
+      }
+    },
+    "proprietaire": {
+      "fetch": "Erreur lors de la récupération des Propriétaires.",
+      "create": "Erreur lors de la création des Propriétaires.",
+      "update": "Erreur lors de la modification des Propriétaires.",
+      "archive": "Erreur lors de l'archivage d'un ou des Propriétaires.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Propriétaires archivés.",
+        "restore": "Erreur lors de la restauration des Propriétaires."
+      }
+    },
+    "gamme": {
+      "fetch": "Erreur lors de la récupération des Gammes.",
+      "create": "Erreur lors de la création des Gammes.",
+      "update": "Erreur lors de la modification des Gammes.",
+      "archive": "Erreur lors de l'archivage d'un ou des Gammes.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Gammes archivés.",
+        "restore": "Erreur lors de la restauration des Gammes."
+      }
+    },
+    "marque": {
+      "fetch": "Erreur lors de la récupération des Marques.",
+      "create": "Erreur lors de la création des Marques.",
+      "update": "Erreur lors de la modification des Marques.",
+      "archive": "Erreur lors de l'archivage d'un ou des Marques.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Marques archivés.",
+        "restore": "Erreur lors de la restauration des Marques."
+      }
+    },
+    "etatEngin": {
+      "fetch": "Erreur lors de la récupération des Etats Engin.",
+      "create": "Erreur lors de la création des Etats Engin.",
+      "update": "Erreur lors de la modification des Etats Engin.",
+      "archive": "Erreur lors de l'archivage d'un ou des Etats Engin.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Etats Engin archivés.",
+        "restore": "Erreur lors de la restauration des Etats Engin."
+      }
+    },
+    "typeOps": {
+      "fetch": "Erreur lors de la récupération des Types OPS.",
+      "create": "Erreur lors de la création des Types OPS.",
+      "update": "Erreur lors de la modification des Types OPS.",
+      "archive": "Erreur lors de l'archivage d'un ou des Types OPS.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Types OPS archivés.",
+        "restore": "Erreur lors de la restauration des Types OPS."
+      }
+    },
+    "typeTech": {
+      "fetch": "Erreur lors de la récupération des Types Tech.",
+      "create": "Erreur lors de la création des Types Tech.",
+      "update": "Erreur lors de la modification des Types Tech.",
+      "archive": "Erreur lors de l'archivage d'un ou des Types Tech.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Types Tech archivés.",
+        "restore": "Erreur lors de la restauration des Types Tech."
+      }
+    },
+    "typeServ": {
+      "fetch": "Erreur lors de la récupération des Types Servitude.",
+      "create": "Erreur lors de la création des Types Servitude.",
+      "update": "Erreur lors de la modification des Types Servitude.",
+      "archive": "Erreur lors de l'archivage d'un ou des Types Servitude.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Types Servitude archivés.",
+        "restore": "Erreur lors de la restauration des Types Servitude."
+      }
+    },
+    "statut": {
+      "fetch": "Erreur lors de la récupération des statuts.",
+      "create": "Erreur lors de la création des statuts.",
+      "update": "Erreur lors de la modification des statuts.",
+      "archive": "Erreur lors de l'archivage d'un ou des statuts.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des statuts archivés.",
+        "restore": "Erreur lors de la restauration des statuts."
+      }
+    },
+    "etat": {
+      "fetch": "Erreur lors de la récupération des états.",
+      "create": "Erreur lors de la création des états.",
+      "update": "Erreur lors de la modification des états.",
+      "archive": "Erreur lors de l'archivage d'un ou des états.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des états archivés.",
+        "restore": "Erreur lors de la restauration des états."
+      }
+    },
+    "affectPhy": {
+      "fetch": "Erreur lors de la récupération des Affectations Physique.",
+      "create": "Erreur lors de la création des Affectations Physique.",
+      "update": "Erreur lors de la modification des Affectations Physique.",
+      "archive": "Erreur lors de l'archivage d'un ou des Affectations Physique.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Affectations Physique archivés.",
+        "restore": "Erreur lors de la restauration des Affectations Physique."
+      }
+    },
+    "affectAdm": {
+      "fetch": "Erreur lors de la récupération des Affectations Administratives.",
+      "create": "Erreur lors de la création des Affectations Administratives.",
+      "update": "Erreur lors de la modification des Affectations Administratives.",
+      "archive": "Erreur lors de l'archivage d'un ou des Affectations Administratives.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Affectations Administratives archivés.",
+        "restore": "Erreur lors de la restauration des Affectations Administratives."
+      }
+    },
+    "affectGis": {
+      "fetch": "Erreur lors de la récupération des Affectations Gisement.",
+      "create": "Erreur lors de la création des Affectations Gisement.",
+      "update": "Erreur lors de la modification des Affectations Gisement.",
+      "archive": "Erreur lors de l'archivage d'un ou des Affectations Gisement.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Affectations Gisement archivés.",
+        "restore": "Erreur lors de la restauration des Affectations Gisement."
+      }
+    },
+    "affectation": {
+      "fetch": "Erreur lors de la récupération des Affectations.",
+      "create": "Erreur lors de la création des Affectations.",
+      "update": "Erreur lors de la modification des Affectations.",
+      "archive": "Erreur lors de l'archivage d'un ou des Affectations.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Affectations archivés.",
+        "restore": "Erreur lors de la restauration des Affectations."
+      }
+    },
+    "equipeur": {
+      "fetch": "Erreur lors de la récupération des équipeurs.",
+      "create": "Erreur lors de la création des équipeurs.",
+      "update": "Erreur lors de la modification des équipeurs.",
+      "archive": "Erreur lors de l'archivage d'un ou des équipeurs.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des équipeurs archivés.",
+        "restore": "Erreur lors de la restauration des équipeurs."
+      }
+    },
+    "catAffect": {
+      "fetch": "Erreur lors de la récupération des Catégories Affectations.",
+      "create": "Erreur lors de la création des Catégories Affectations.",
+      "update": "Erreur lors de la modification des Catégories Affectations.",
+      "archive": "Erreur lors de l'archivage d'un ou des Catégories Affectations.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Catégories Affectations archivés.",
+        "restore": "Erreur lors de la restauration des Catégories Affectations."
+      }
+    },
+    "attelage": {
+      "fetch": "Erreur lors de la récupération des types Attelages.",
+      "create": "Erreur lors de la création des types Attelages.",
+      "update": "Erreur lors de la modification des types Attelages.",
+      "archive": "Erreur lors de l'archivage d'un ou des types Attelages.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des types Attelages archivés.",
+        "restore": "Erreur lors de la restauration des types Attelages."
+      }
+    },
+    "equipement": {
+      "fetch": "Erreur lors de la récupération des équipements.",
+      "create": "Erreur lors de la création des équipements.",
+      "update": "Erreur lors de la modification des équipements.",
+      "archive": "Erreur lors de l'archivage d'un ou des équipements.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des équipements archivés.",
+        "restore": "Erreur lors de la restauration des équipements."
+      }
+    },
+    "equipementE": {
+      "fetch": "Erreur lors de la récupération des équipements engins.",
+      "create": "Erreur lors de la création des équipements engins.",
+      "update": "Erreur lors de la modification des équipements engins.",
+      "archive": "Erreur lors de l'archivage d'un ou des équipements engins.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des équipements engins archivés.",
+        "restore": "Erreur lors de la restauration des équipements engins."
+      }
+    },
+    "reparation": {
+      "fetch": "Erreur lors de la récupération des Réparations.",
+      "create": "Erreur lors de la création des Réparations.",
+      "update": "Erreur lors de la modification des Réparations.",
+      "archive": "Erreur lors de l'archivage d'un ou des Réparations.",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Réparations archivés.",
+        "restore": "Erreur lors de la restauration des Réparations."
+      }
+    },
+    "intervention": {
+      "fetch": "Erreur lors de la récupération des Interventions.",
+      "create": "Erreur lors de la création de l'Intervention.",
+      "update": "Erreur lors de la modification de l'Interventions",
+      "archive": "Erreur lors de l'archivage d'un ou des Interventions",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Interventions archivés.",
+        "restore": "Erreur lors de la restauration des Interventions."
+      }
+    },
+    "intervenant": {
+      "fetch": "Erreur lors de la récupération des Intervenants.",
+      "create": "Erreur lors de la création de l'Intervention.",
+      "update": "Erreur lors de la modification de l'Intervenants",
+      "archive": "Erreur lors de l'archivage d'un ou des Intervenants",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Intervenants archivés.",
+        "restore": "Erreur lors de la restauration des Intervenants."
+      }
+    },
+    "type": {
+      "fetch": "Erreur lors de la récupération des Type Intervenants.",
+      "create": "Erreur lors de la création du Type Intervention.",
+      "update": "Erreur lors de la modification du Type Intervenants",
+      "archive": "Erreur lors de l'archivage d'un ou des Type Intervenants",
+      "archives": {
+        "fetch": "Erreur lors de la récupération des Type Intervenants archivés.",
+        "restore": "Erreur lors de la restauration des Type Intervenants."
+      }
+    },
+    "logs": {
+      "fetch": "Erreur lors de la récupération des Logs.",
+      "create": "Erreur lors de la création du Logs.",
+      "update": "Erreur lors de la modification du Logs",
+      "archive": "Erreur lors de l'archivage d'un ou des Logs"
+    }
+  },
+  "confirm": {
+    "users": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces utilisateurs ?",
+      "reset": "Êtes-vous sûr de vouloir réinitialiser le mot de passe de cet utilisateur ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces utilisateurs ?"
+    },
+    "appellation": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces appellations ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces appellations ?"
+    },
+    "classification": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces classifications ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces classifications ?"
+    },
+    "categories": {
+      "delete": "Êtes-vous sûr de vouloir supprimer cette ou ces catégories ?"
+    },
+    "document": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces document ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces document ?"
+    },
+    "etatCommande": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces états de commande ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces états de commande ?"
+    },
+    "proprietaire": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces propriétaire ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces propriétaire ?"
+    },
+    "gamme": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces gammes ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces gammes ?"
+    },
+    "marque": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces marques ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces marques ?"
+    },
+    "etatEngin": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces états Engin ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces états Engin ?"
+    },
+    "typeOps": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces type Ops ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces type Ops ?"
+    },
+    "typeTech": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces type Tech ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces type Tech ?"
+    },
+    "typeServ": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces type Servitude ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces type Servitude ?"
+    },
+    "statut": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces statuts ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces statuts ?"
+    },
+    "affectPhy": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces Affectation Physique ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces Affectation Physique ?"
+    },
+    "affectAdm": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces Affectation Administrative ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces Affectation Administrative ?"
+    },
+    "equipeur": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces équipeurs ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces équipeurs ?"
+    },
+    "catAffect": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces Catégories d'Affectation ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces Catégories d'Affectation ?"
+    },
+    "attelage": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces types Attelage ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces types Attelage ?"
+    },
+    "equipement": {
+      "delete": "Êtes-vous sûr de vouloir supprimer ce ou ces équipements ?",
+      "restore": "Êtes-vous sûr de vouloir restaurer ce ou ces équipements ?"
+    }
+  },
+  "pages": {
+    "appellation": {
+      "name": "Nom"
+    },
+    "classification": {
+      "name": "Nom",
+      "nom": "Classification",
+      "nbEngin": "Nombre d'Engin"
+    },
+    "etatCommande": {
+      "name": "Nom",
+      "colors": "Couleur"
+    },
+    "gamme": {
+      "name": "Nom",
+      "nom": "Gamme",
+      "nbEngin": "Nombre d'Engin"
+    },
+    "equipeur": {
+      "name": "Nom"
+    },
+    "login": {
+      "code-not-received": "Code temporaire non reçu ?",
+      "forgotten-password": {
+        "title": "Mot de passe oublié",
+        "notice": "En poursuivant vous allez procéder à une réinitialisation de votre mot de passe, ce dernier sera donc supprimé et il vous faudra de nouveau procéder à la création d'un mot de passe."
+      },
+      "retrieve-password": "Récupérer le mot de passe",
+      "login": "Connexion"
+    },
+    "users": {
+      "table": {
+        "fullname": "Nom complet",
+        "email": "Email",
+        "roles": {
+          "title": "Rôles",
+          "SUPERADMIN": {
+            "title": "Super-Admin"
+          },
+          "SIGEE_ADMIN": {
+            "title": "Admin"
+          },
+          "SIGEE_MANAGER": {
+            "title": "Gestionnaire SIGEE  'ajouter les roles ici'"
+          }
+        }
+      }
+    },
+    "category": {
+      "table": {
+        "code": "Code Famille",
+        "libelle": "Libelle Famille"
+      }
+    },
+    "commande": {
+      "table": {
+        "number": "Numéro",
+        "workshop": "Atelier",
+        "autor": "Auteur",
+        "date": "Date",
+        "asked": "Demande",
+        "sort": "Type OPS",
+        "registration": "Immatriculation",
+        "bodywork": "Carrosserie",
+        "state": "Etat"
+      }
+    },
+    "document": {
+      "table": {
+        "title": "Titre",
+        "url": "Lien",
+        "autor": "Auteur",
+        "date": "Date",
+        "dateEnd": "Date de fin de Validité",
+        "registration": "Immatriculation",
+        "file": "Fichier"
+      }
+    },
+    "engin": {
+      "table": {
+        "title": "Titre",
+        "autor": "Auteur",
+        "date": "Date",
+        "dateEnd": "Date de fin de Validité Admin",
+        "registration": "Immatriculation",
+        "bodywork": "Carrosserie",
+        "type": "Type Déplacement",
+        "dateCircu": "Date 1ere mise en circulation",
+        "dateEntre": "Date d'entrée en service",
+        "dureeVie": "Durée de vie théorique",
+        "categorie": "Catégorisation Engin",
+        "years": "Année",
+        "number": "Numéro",
+        "proprietaire": "Propriétaire",
+        "classification": "Classification",
+        "gamme": "Gamme",
+        "marque": "Marque",
+        "appellation": "Appellation Commerciale",
+        "etatEngin": "Etat Engin",
+        "typeOps": "Type OPS",
+        "typeTech": "Type Tech",
+        "typeServ": "Type Servitude",
+        "statutOps": "Statut OPS",
+        "statutTech": "Statut Tech",
+        "dossier": "Numéro Dossier",
+        "folio": "Numéro Folio",
+        "affectPhy": "Affectation Physique",
+        "affectAdm": "Affectation Administrative",
+        "reference": "Référence",
+        "invVille": "N°Inventaire Ville",
+        "equipeur": "Equipeur",
+        "mine": "N°Mine",
+        "serie": "N°Série",
+        "bcm": "N°BCM",
+        "catAffect": "Catégorie Affectation",
+        "attelage": "Type Attelage",
+        "equipement": "Equipement",
+        "montage": "Date de Montage",
+        "place": "Place Assurée",
+        "puissance": "Puissance Fiscale",
+        "prix": "Prix Achat",
+        "longueur": "Longueur (cm)",
+        "largeur": "Largeur (cm)",
+        "hauteur": "Hauteur (cm)",
+        "vitesse": "Vitesse (km/h)",
+        "ptac": "PTAC (kg)",
+        "cle": "Double des clés",
+        "titre": "Titre",
+        "dateFin": "Date Fin Validité",
+        "file": "Fichier",
+        "dateSortInventaire": "Date Sortie Inventaire Ville",
+        "d_fvadministrative": "Date fin Administrative",
+        "d_sortie_service": "Date Sortie Service",
+        "compteur": "Compteur",
+        "position": "Position",
+        "compteur1": "Compteur corrigé",
+        "horametre": "Horamètre",
+        "observation": "Observation",
+        "numero_engin": "Numero Engin",
+        "age": "Age Engin",
+        "attribution": "Attribution",
+        "radio": "Radio",
+        "d_entree": "Date d'entrée Réparation",
+        "desc_raison_entree": "Raison Réparation",
+        "d_sortie": "Date de Sortie Réparation",
+        "depart": "N°Départ",
+        "km": "Kilomètrage",
+        "hr": "Horamètre",
+        "d_fvassurance": "Date fin Assurance",
+        "rfgi": "RFGI",
+        "codeTag": "TAG",
+        "tracteur": "Attelage",
+        "famille": "Catégorie",
+        "cis": "CIS",
+        "nbEngin": "Nombre d'Engin"
+      }
+    },
+    "dashboard": {
+      "user_count": {
+        "user_actif": " Utilisateur(s) actif(s)",
+        "user_count": " Utilisateurs"
+      },
+      "alerte": "Alertes",
+      "rep/int": "Réparation/Intervention",
+      "detail": "Détail du parc",
+      "engin_count": "Nombre d'Engin ",
+      "alerteR": "Alerte Révision",
+      "alerteD": "Alerte Date de Fin de Validité",
+      "reparationType": "Les types de réparation les plus courantes (en fonction des raison les plus courantes)",
+      "nbReparation": "Nombre de réparation en cours d'année",
+      "nbIntervention": "Nombre d'intervention en cours d'année",
+      "repartitionClassification": "Répartition des engins par Classification",
+      "repartitionGamme": "Répartition des engins par Gamme",
+      "repartitionProprietaire": "Répartition des engins par Propriétaire",
+      "ageMoyenEngin": "Age moyen par type d'engins"
+    },
+    "proprietaire": {
+      "table": {
+        "code": " Code Propriétaire",
+        "libelle": " Libellé Propriétaire",
+        "nbEngin": "Nombre d'Engin",
+        "nom": "Propriétaire"
+      }
+    },
+    "equipement": {
+      "table": {
+        "equipements": "Equipement",
+        "libelle": "Libelle",
+        "periode": "Période révision"
+      }
+    },
+    "typeOps": {
+      "table": {
+        "name": "Nom",
+        "genre": "Type Genre"
+      }
+    },
+    "typeTech": {
+      "table": {
+        "name": "Nom",
+        "libelle": "Libellé",
+        "gamme": "Type Gamme"
+      }
+    },
+    "typeServ": {
+      "table": {
+        "name": "Nom"
+      }
+    },
+    "attelage": {
+      "table": {
+        "name": "Nom",
+        "author": "Auteur",
+        "date": "Date"
+      }
+    },
+    "marque": {
+      "name": "Nom"
+    },
+    "equipementE": {
+      "table": {
+        "montage": "Date de Montage",
+        "verification": "Date de Vérification",
+        "utilisation": "Date Limite d'Utilisation",
+        "action": "Action",
+        "temoinDate": "Date",
+        "temoinAuthor": "Auteur"
+      }
+    },
+    "reparationE": {
+      "table": {
+        "registration": "Immatriculation",
+        "dateE": "Date d'Entrée",
+        "dateS": "Date Sortie",
+        "km": "KM",
+        "hr": "HR",
+        "description": "Description de la Raison",
+        "author": "Auteur",
+        "date": "Date"
+      }
+    },
+    "interventionE": {
+      "table": {
+        "registration": "Immatriculation",
+        "dateE": "Date d'Entrée",
+        "dateS": "Date Sortie",
+        "nature": "Nature",
+        "intervenant": "Intervenant",
+        "observation": "Observation",
+        "author": "Auteur",
+        "date": "Date",
+        "dateM": "Date de Modification"
+      }
+    },
+    "interventionR": {
+      "table": {
+        "dateE": "Date d'Entrée",
+        "dateS": "Date Sortie",
+        "datePrev": "Date Fin Prévi.",
+        "nature": "Nature Travaux",
+        "intervenant": "Intervenant",
+        "observation": "Observation Chef",
+        "atelier": "Nb Heure Atelier",
+        "author": "Auteur",
+        "date": "Date",
+        "dateM": "Date de Modification"
+      }
+    },
+    "affectPhy": {
+      "table": {
+        "registration": "Immatriculation",
+        "code": "Code Centre",
+        "affectation": "Affectation PHY",
+        "date": "Depuis le",
+        "author": "Auteur"
+      }
+    },
+    "affectAdm": {
+      "table": {
+        "registration": "Immatriculation",
+        "code": "Code Centre",
+        "affectation": "Affectation ADM",
+        "reference": "Référence",
+        "date": "Depuis le",
+        "author": "Auteur"
+      }
+    },
+    "affectGis": {
+      "table": {
+        "registration": "Immatriculation",
+        "code": "Code Centre",
+        "affectation": "Attribution",
+        "date": "Depuis le",
+        "author": "Auteur"
+      }
+    },
+    "affectation": {
+      "table": {
+        "libelle": "Libelle",
+        "libelle_long": "Libelle long",
+        "libelle_sigale": "Libelle Sigale",
+        "code": "Code Centre",
+        "affectation": "Affectation",
+        "date": "Date",
+        "author": "Auteur",
+        "description": "Description"
+      }
+    },
+    "garage": {
+      "table": {
+        "registration": "Immatriculation",
+        "km": "KM",
+        "hr": "Hora",
+        "corriger": "KM Corrigé",
+        "author": "Auteur",
+        "date": "Date"
+      }
+    },
+    "reparation": {
+      "table": {
+        "genre": "Genre",
+        "registration": "Immatriculation",
+        "carrosserie": "Carrosserie",
+        "statutOps": "Statut OPS",
+        "dateE": "Date d'Entrée",
+        "affectationAdm": "Affectation ADM",
+        "affectationPhy": "Affectation PHY",
+        "raison": "Description de la raison",
+        "dateS": "Date de Sortie",
+        "author": "Auteur",
+        "dateM": "Date de Modification",
+        "intervenant": "Intervenant",
+        "statutTech": "Statut Tech",
+        "hr": "HR",
+        "km": "KM",
+        "date": "Date",
+        "designation": "Désignation",
+        "nbAnnee": "Nombre de réparation en Année"
+      }
+    },
+    "intervenant": {
+      "table": {
+        "nom": "Nom",
+        "author": "Auteur",
+        "date": "Date",
+        "intervenant": "Type Intervenant"
+      }
+    },
+    "type": {
+      "table": {
+        "categorie": "Catégorie",
+        "author": "Auteur",
+        "date": "Date"
+      }
+    },
+    "logs": {
+      "table": {
+        "dateheure": "Date / Heure",
+        "utilisateur": "Utilisateur",
+        "action": "Action"
+      }
+    }
+  },
+  "modals": {
+    "password": "Modifier le mot de passe",
+    "user": {
+      "create": "Ajouter un utilisateur",
+      "update": "Modifier un utilisateur",
+      "reset": "Réinitialiser un utilisateur"
+    },
+    "email": {
+      "update": "Modifier l'adresse email",
+      "validate": "Vérifier l'adresse email"
+    },
+    "categories": {
+      "create": "Ajouter une catégorie",
+      "update": "Modifier une catégorie"
+    },
+    "appellation": {
+      "create": "Ajouter une Appellation",
+      "update": "Modifier une Appellation"
+    },
+    "classification": {
+      "create": "Ajouter une classification",
+      "update": "Modifier une classification"
+    },
+    "document": {
+      "create": "Ajouter un document",
+      "update": "Modifier un document"
+    },
+    "etatCommande": {
+      "create": "Ajouter un état commande",
+      "update": "Modifier un état commande"
+    },
+    "affectPhy": {
+      "create": "Ajouter une Affectation Physique",
+      "update": "Modifier une Affectation Physique"
+    },
+    "affectAdm": {
+      "create": "Ajouter une Affectation Administrative",
+      "update": "Modifier une Affectation Administrative"
+    },
+    "affectation": {
+      "create": "Ajouter une Affectation",
+      "update": "Modifier une Affectation"
+    },
+    "equipeur": {
+      "create": "Ajouter un équipeur",
+      "update": "Modifier un équipeur"
+    },
+    "catAffect": {
+      "create": "Ajouter une catégorie Affectation",
+      "update": "Modifier une catégorie Affectation"
+    },
+    "attelage": {
+      "create": "Ajouter un type Attelage",
+      "update": "Modifier un type Attelage"
+    },
+    "equipement": {
+      "create": "Ajouter un Equipement",
+      "update": "Modifier un Equipement"
+    },
+    "equipementE": {
+      "create": "Ajouter un Equipement engin",
+      "update": "Modifier un Equipement engin"
+    },
+    "marque": {
+      "create": "Ajouter une Marque",
+      "update": "Modifier une Marque"
+    },
+    "typeOps": {
+      "create": "Ajouter un Type OPS",
+      "update": "Modifier un Type OPS"
+    },
+    "typeTech": {
+      "create": "Ajouter un Type Tech",
+      "update": "Modifier un Type Tech"
+    },
+    "typeServ": {
+      "create": "Ajouter un Type Serv",
+      "update": "Modifier un Type Serv"
+    },
+    "proprietaire": {
+      "create": "Ajouter un Propriétaire",
+      "update": "Modifier un Propriétaire"
+    },
+    "engin": {
+      "create": "Ajouter un Engin",
+      "update": "Modifier un Engin",
+      "step": {
+        "general": "Général",
+        "vehicule": "Véhicule",
+        "register": "Enregistrement",
+        "infrastructure": "Infrastructure",
+        "equipement": "Equipement",
+        "dimension": "Dimension",
+        "file": "Fichier",
+        "sic": "Fichier/SIC"
+      }
+    },
+    "reparation": {
+      "create": "Ajouter une Réparation",
+      "update": "Modifier un Réparation",
+      "step": {
+        "general": "Général",
+        "raison": "Description",
+        "motor": "Moteur",
+        "garantis": "Garantie"
+      }
+    },
+    "moteur": {
+      "create": "Ajouter un moteur"
+    },
+    "gamme": {
+      "create": "Ajouter une Gamme",
+      "update": "Modifier une Gamme"
+    },
+    "intervention": {
+      "create": "Ajouter une Intervention",
+      "update": "Modifier une Intervention"
+    },
+    "intervenant": {
+      "create": "Ajouter un Intervenant",
+      "update": "Modifier un Intervenant"
+    },
+    "type": {
+      "create": "Ajouter un Type Intervenant",
+      "update": "Modifier un Type Intervenant"
+    }
+  },
+  "alerts": {
+    "emailUpdate": "Afin de valider votre changement d'adresse email, veuillez saisir le code qui vous a été envoyé.",
+    "passwordRequired": "Veuillez saisir votre mot de passe afin de confirmer votre identité."
+  },
+  "fields": {
+    "search": {
+      "placeholder": "Mots clés de recherche"
+    },
+    "password": {
+      "old": {
+        "title": "Mot de passe actuel",
+        "placeholder": "Saisissez le mot de passe actuel"
+      },
+      "new": {
+        "title": "Nouveau mot de passe",
+        "placeholder": "Saisissez le nouveau mot de passe",
+        "errors": {
+          "same": "Le mot de passe saisie doit être différent de celui précédemment utilisé.",
+          "score": "Le mot de passe n'est pas suffisamment complexe."
+        }
+      },
+      "confirm": {
+        "requiredMessage": "Confirmez le nouveau mot de passe",
+        "title": "Confirmation du mot de passe",
+        "placeholder": "Confirmez le nouveau mot de passe",
+        "patternMessage": "Les deux mots de passe ne correspondent pas."
+      },
+      "default": {
+        "requiredMessage": "Confirmez le mot de passe par défaut",
+        "title": "Mot de passe par défaut",
+        "placeholder": "Mot de passe par défaut",
+        "patternMessage": "Veuillez renseigner le mot de passe par défaut"
+      },
+      "shortname": "Mot de passe",
+      "title": "Mot de passe",
+      "requiredMessage": "Saisissez un mot de passe.",
+      "rules": "(8 caractères, 1 majuscule, 1 minuscule, 1 caractère spécial, 1 chiffre)",
+      "patternMessage": "Le mot de passe ne respecte pas les règles de complexité.",
+      "placeholder": "Saisissez le mot de passe",
+      "icon": "key"
+    },
+    "email": {
+      "shortname": "email",
+      "title": "Email",
+      "patternMessage": "Le format de l'adresse saisie n'est pas valide",
+      "requiredMessage": "Adresse email requise",
+      "placeholder": "Saisissez une adresse e-mail"
+    },
+    "login": {
+      "shortname": "Nom d'utilisateur",
+      "title": "Nom d'utilisateur",
+      "placeholder": "Saisissez un nom d'utilisateur",
+      "requiredMessage": "Veuillez saisir un nom d'utilisateur.",
+      "tooltip": "Ce champ vous servira à vous connecter et doit être unique",
+      "patternMessage": "Format incorrect."
+    },
+    "lastName": {
+      "shortname": "Nom",
+      "title": "Nom",
+      "placeholder": "Saisissez un nom",
+      "requiredMessage": "Nom requis"
+    },
+    "firstName": {
+      "shortname": "Prénom",
+      "title": "Prénom",
+      "placeholder": "Saisissez un prénom",
+      "requiredMessage": "Prénom requis"
+    },
+    "role": {
+      "shortname": "Rôle",
+      "title": "Rôle",
+      "requiredMessage": "Rôle requis"
+    },
+    "avatar": {
+      "shortname": "Avatar",
+      "title": "Modifier l'avatar",
+      "import": "Importer",
+      "delete": "Supprimer"
+    },
+    "appellation": {
+      "shortname": "Appellation",
+      "title": "Liste des Appellations Commerciales",
+      "placeholder": "Saissiez le nom d'une Appellation",
+      "requiredMessage": "Nom d'Appellation requis",
+      "pattern": "L'appelation ne doit contenir que des lettres, des chiffres et &$/-"
+    },
+    "classification": {
+      "shortname": "Classification",
+      "title": "Liste des Classifications",
+      "placeholder": "Saisissez une classification",
+      "pattern": "La classification ne doit contenir que des lettres, des chiffres et &$/-",
+      "requiredMessage": "Nom de classification requis",
+      "placeholderLibelle": "Libellé"
+    },
+    "category": {
+      "shortname": "Catégorie",
+      "title": "Liste des Catégories",
+      "requiredMessageCode": "Merci de saisir un code famille",
+      "patternMaxLength": "Le code famille ne peut pas dépasser 10 caractères",
+      "patternCode": "Le code famille ne doit contenir que des lettres et des chiffres",
+      "placeholderCode": "Code Famille",
+      "requiredMessageLibelle": "Merci de saisir un Libelle famille",
+      "patternLibelle": "Le code famille ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholderLibelle": "Libellé Famille"
+    },
+    "document": {
+      "shortname": "Document",
+      "title": "Liste des Documents",
+      "requiredMessage": "Merci de saisir un titre",
+      "patternMaxLength": "Le titre ne peut pas dépasser 30 caractères",
+      "patternTitle": "Le titre ne doit contenir que des lettres, des chiffres et (-)",
+      "placeholderTitle": "Titre",
+      "requiredMessageFile": "Merci d'importer un document",
+      "requiredMessageDate": "Date de fin de validité"
+    },
+    "commande": {
+      "shortname": "Commande",
+      "title": " Liste des Commandes"
+    },
+    "equipement": {
+      "shortname": "Equipement",
+      "title": " Liste des Equipements",
+      "min": "Au moins un Equipement",
+      "requiredMessage": "Merci de saisir un Libelle Equipement",
+      "patternLibelle": "Le libellé équipement ne doit contenir que des lettres, des chiffres et -",
+      "placeholderLibelle": "Libellé Equipement",
+      "requiredMessagePeriode": "Merci de saisir une Période de Révision",
+      "patternPeriode": "La Période de Révision ne doit contenir que des chiffres",
+      "placeholderPeriode": "Période Révision"
+    },
+    "etatCommande": {
+      "shortname": "Etat Commande",
+      "title": "Liste des Etats de Commande",
+      "placeholderName": "Saisissez un Etat Commande",
+      "patternName": "Le nom d'état de commande ne doit contenir que des lettres, des chiffres et &$/-",
+      "requiredMessageName": "Nom d'un état de commande requis",
+      "placeholderColors": "Saisissez une couleur",
+      "patternColors": "La couleur ne doit contenir que des lettres",
+      "requiredMessageColors": "Nom d'une couleur requis"
+    },
+    "engin": {
+      "shortname": "Engin",
+      "title": "Liste des Engins",
+      "detail": "Détail Engin",
+      "placeholderRegistration": "Immatriculation",
+      "patternRegistration": "L'immatriculation ne doit contenir que des lettres en Majuscule, des chiffres et -",
+      "patternRegistrationMessage": "L'immatriculation ne peut pas dépasser 15 caractères",
+      "requiredMessageRegistration": "Immatriculation requis",
+      "requiredMessageType": "Merci de choisir le type de déplacement",
+      "requiredMessageDate1er": "Merci de mettre une date de première mise en circulation",
+      "requiredMessageDateEntre": "Merci de mettre une date d'entrée en service",
+      "requiredMessageDateEnd": "Merci de mettre une date de fin de validité Admin",
+      "requiredMessageDuree": "Merci de mettre une durée de vie théorique",
+      "patternDuree": "La durée de vie ne doit contenir que des chiffres",
+      "placeholderDuree": "Durée de vie Théorique",
+      "requiredMessageCarrosserie": "Merci de mettre une Carrosserie",
+      "patternCarrosserie": "La carrosserie ne doit contenir que des lettres, des chiffres et -",
+      "placeholderCarrosserie": "Saisir une Carrosserie",
+      "requiredMessageCategorie": "Merci de choisir une Catégorie",
+      "placeholderCategorie": "Catégorie",
+      "requiredMessageYears": "Saisissez une année",
+      "requiredMessageNumber": "Saisissez un nombre",
+      "requiredMessageProprietaire": "Merci de choisir un proprietaire",
+      "patternYears": "L'année ne doit contenir que des chiffres",
+      "patternNumber": "Le numéro ne doit contenir que des chiffres",
+      "placeholderYears": "Année",
+      "placeholderNumber": "Numéro",
+      "placeholderProprietaire": "Proprietaire",
+      "placeholderClassification": "Classification",
+      "placeholderGamme": "Gamme",
+      "requiredMessageClassification": "Merci de choisir une Classification",
+      "requiredMessageGamme": "Merci de choisir une Gamme",
+      "requiredMessageMarque": "Merci de choisir une Marque",
+      "placeholderMarque": "Marque",
+      "placeholderAppellation": "Appellation Commerciale",
+      "requiredMessageEtatEngin": "Merci de choisir un état Engin",
+      "placeholderEtatEngin": "Etat Engin",
+      "requiredMessageTypeOps": "Merci de choisir un Type OPS",
+      "placeholderTypeOps": "Type Ops",
+      "requiredMessageTypeTech": "Merci de choisir un Type Tech",
+      "placeholderTypeTech": "Type Tech",
+      "requiredMessageTypeServ": "Merci de choisir un Type Servitude",
+      "placeholderTypeServ": "Type Servitude",
+      "requiredMessageDossier": "Saisissez un numéro de dossier",
+      "placeholderDossier": "N°Dossier",
+      "patternDossier": "Le numéro Dossier ne doit contenir que des chiffres et des lettres",
+      "requiredMessageFolio": "Saisissez un numéro de folio et des lettres",
+      "placeholderFolio": "N°Folio",
+      "patternFolio": "Le numéro Folio ne doit contenir que des chiffres, des lettres, espace, - et /",
+      "requiredMessageStatutTech": "Merci de choisir un statut Tech",
+      "placeholderStatutTech": "Statut Tech",
+      "requiredMessageStatutOps": "Merci de choisir un statut OPS",
+      "placeholderStatutOps": "Statut Ops",
+      "requiredMessagePhy": "Merci de choisir une Affectation Physique",
+      "placeholderPhy": "Affectation Physique",
+      "requiredMessageAdm": "Merci de choisir une Affectation Administrative",
+      "placeholderAdm": "Affectation Administrative",
+      "requiredMessageVille": "Merci de saisir un N°Inventaire Ville",
+      "placeholderVille": "N°Inventaire Ville",
+      "patternVille": "Le N°Inventaire Ville ne doit contenir que des chiffres et des lettres",
+      "requiredMessageRef": "Merci de saisir une Référence",
+      "placeholderRef": "Référence",
+      "patternRef": "La Référence ne doit contenir que des chiffres, des lettres, /, °, espace",
+      "requiredMessageEquipeur": "Merci de choisir un Equipeur",
+      "placeholderEquipeur": "Equipeur",
+      "requiredMessageMine": "Merci de saisir un Numéro de Série",
+      "placeholderMine": "N°Série",
+      "patternMine": "Le numéro de Série ne doit contenir que des chiffres et des lettres",
+      "requiredMessageBCM": "Merci de saisir un numéro BCM",
+      "placeholderBCM": "N°BCM",
+      "patternBCM": "Le numéro BCM ne doit contenir que des chiffres et des lettres",
+      "requiredMessageCatAffect": "Merci de choisir une Catégorie d'Affectation",
+      "placeholderCatAffect": "Catégorie Affectation",
+      "requiredMessageAttelage": "Merci de choisir un type d'Attelage",
+      "placeholderAttelage": "Type Attelage",
+      "requiredMessageEquipement": "Merci de choisir un équipement",
+      "placeholderEquipement": "Equipement",
+      "requiredMessageMontage": "Date de Montage requis",
+      "requiredMessagePlace": "Merci de saisir le nombre de place",
+      "placeholderPlace": "Place Assurée",
+      "patternPlace": "Le nombre de place Assurée ne doit contenir que des chiffres",
+      "patternPlaceLong": "Le nombre de place Assurée ne peut pas dépasser 2 caractères",
+      "requiredMessagePuissance": "Merci de saisir la puissance fiscale",
+      "placeholderPuissance": "Puissance Fiscale",
+      "patternPuissance": "La puissance fiscale ne doit contenir que des chiffres",
+      "patternPuissanceLong": "La puissance fiscale ne peut pas dépasser 3 caractères",
+      "requiredMessagePrix": "Merci de saisir le prix d'achat",
+      "placeholderPrix": "Prix Achat",
+      "patternPrix": "Le prix d'achat ne doit contenir que des chiffres",
+      "requiredMessageLongueur": "Merci de saisir la longueur en cm",
+      "placeholderLongueur": "Longueur (cm)",
+      "patternLongueur": "La longueur ne doit contenir que des chiffres",
+      "requiredMessageLargeur": "Merci de saisir la Largeur en cm",
+      "placeholderLargeur": "Largeur (cm)",
+      "patternLargeur": "La Largeur ne doit contenir que des chiffres",
+      "requiredMessageHauteur": "Merci de saisir la Hauteur en cm",
+      "placeholderHauteur": "Hauteur (cm)",
+      "patternHauteur": "La Hauteur ne doit contenir que des chiffres",
+      "requiredMessageVitesse": "Merci de saisir la Vitesse en km/h",
+      "placeholderVitesse": "Vitesse (km/h)",
+      "patternVitesse": "La Vitesse ne doit contenir que des chiffres",
+      "requiredMessagePtac": "Merci de saisir la PTAC en kg",
+      "placeholderPtac": "PTAC (kg)",
+      "patternPtac": "La PTAC ne doit contenir que des chiffres",
+      "cle": "Le CIS ou le GST possède le double des clés",
+      "patternTitre": "Le Titre ne doit contenir que des chiffres et des lettres",
+      "placeholderTitre": "Titre",
+      "RequiredMessageTitre": "Le titre est requis",
+      "requiredMessageDepart": "Saisissez un numéro de Départ",
+      "placeholderDepart": "N°Départ",
+      "patternDepart": "Le numéro de Départ ne doit contenir que des chiffres ",
+      "placeholderPosition": "Position",
+      "patternPosition": "Merci de choisir une Position",
+      "placeholderKm": "Kilomètrage",
+      "patternKm": "Le kilomètrage ne doit contenir que des chiffres ",
+      "requiredMessageKm": "Saisissez un kilomètrage",
+      "placeholderHr": "Horamètre",
+      "patternHr": "Le Horamètre ne doit contenir que des chiffres ",
+      "requiredMessageHr": "Saisissez un Horamètre",
+      "placeholderAttribution": "Attribution",
+      "patternAttribution": "Merci de choisir une Attribution",
+      "requiredMessageAttribution": "Merci de choisir une Attribution",
+      "placeholderObs": "Observation",
+      "patternObs": "L'Observation ne doit contenir que des chiffres, des lettres, espace, - et /",
+      "requiredMessageObs": "Merci de saisir une Observation",
+      "patternRfgi": "Le RFGI ne doit contenir que des chiffres et -",
+      "placeholderRfgi": "RFGI",
+      "patternCodeTag": "Le TAG ne doit contenir que des chiffres et -",
+      "placeholderCodeTag": "TAG",
+      "tracteur": "Attelage"
+    },
+    "detailEngin": {
+      "registration": "Immatriculation",
+      "libelleSigle": "Libellé du Sigle",
+      "carrosserie": "Carrosserie",
+      "catAffect": "Catégorie Affectation",
+      "typeOps": "Type OPS",
+      "depart": "N°Départ OPS",
+      "statutOps": "Statut OPS",
+      "statutTech": "Statut Tech",
+      "position": "Position",
+      "km": "Kilomètrage",
+      "hr": "Horamètre",
+      "affectPhy": "Affectation Physique",
+      "affectAdm": "Affectation Administrative",
+      "ref": "Référence",
+      "attribution": "Attribution",
+      "marque": "Marque",
+      "appelcom": "Appellation Commerciale",
+      "equipeur": "Equipeur",
+      "typeTech": "Type Tech",
+      "attelage": " Type Attelage",
+      "classification": "Classification",
+      "gamme": "Type Gamme",
+      "place": "Place Assurée",
+      "ville": "N°Inventaire Ville",
+      "bcm": "N°BCM",
+      "sortie": "Date de Sortie Inventaire Ville",
+      "puissance": "Puissance Fiscale",
+      "achat": "Prix Achat",
+      "dossier": "N°Dossier",
+      "folio": "N°Folio",
+      "prem": "Date 1ère Mise en Circulation",
+      "entre": "Date Entrée en Service",
+      "fin": "Date Fin Validité Admin",
+      "vie": "Durée de Vie Théorique",
+      "validite": "Date Fin Validité Assurée",
+      "age": "Age Engin",
+      "serie": "N°Série",
+      "obs": "Observation",
+      "rfgi": "RFGI",
+      "tagh": "TAG H",
+      "tag": "TAG",
+      "num": "Numéro",
+      "proprietaire": "Propriétaire Engin",
+      "cate": "Catégorisation Engin",
+      "years": "Année",
+      "type": "Type"
+    },
+    "proprietaire": {
+      "title": "Liste des Propriétaires",
+      "requiredMessageCode": "Merci de saisir un Code Propriétaire",
+      "patternLong": "Le Code Propriétaire ne peut pas dépasser 10 caractères",
+      "patternCode": "Le Code Propriétaire ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholderCode": "Code Propriétaire",
+      "requiredMessageLibelle": "Merci de saisir un Libelle Propriétaire",
+      "patternLibelle": "Le Libelle Propriétaire ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholderLibelle": "Libellé Propriétaire"
+    },
+    "marque": {
+      "title": "Liste des Marques",
+      "requiredMessage": "Merci de saisir un Nom",
+      "pattern": "Le nom ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholder": "Marque"
+    },
+    "equipementE": {
+      "shortname": "Equipement Engin",
+      "title": " Liste des Equipements Engin",
+      "requiredMessageAction": "Merci de saisir une Action",
+      "patternAction": "L'action ne doit contenir que des lettres, des chiffres et -",
+      "placeholderAction": "Action",
+      "requiredMessageUtilisation": "Merci de saisir une date limite d'utilisation",
+      "requiredMessageMontage": "Merci de saisir une date de montage",
+      "requiredMessageVerification": "Merci de saisir une date de vérification"
+    },
+    "gamme": {
+      "title": "Liste des Gammes",
+      "requiredMessage": "Merci de saisir un Nom",
+      "pattern": "Le nom ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholder": "Gamme"
+    },
+    "attelage": {
+      "title": "Liste des Types Attelage",
+      "requiredMessage": "Merci de saisir un Nom",
+      "pattern": "Le nom ne doit contenir que des lettres, des chiffres",
+      "placeholder": "Type Attelage"
+    },
+    "typeOps": {
+      "title": "Liste des Types OPS",
+      "requiredMessageName": "Merci de saisir un Nom",
+      "patternName": "Le nom ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholderName": "Nom",
+      "requiredMessageGenre": "Merci de choisir une Classification",
+      "placeholderGenre": "Classification"
+    },
+    "typeTech": {
+      "title": "Liste des Types Tech",
+      "requiredMessageName": "Merci de saisir un Nom",
+      "patternLength": "Le nom du type de technique ne peut pas dépasser 20 caractères",
+      "patternName": "Le nom ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholderName": "Nom",
+      "requiredMessageLibelle": "Merci de saisir un Libellé",
+      "patternLibelle": "Le Libellé ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholderLibelle": "Libellé",
+      "requiredMessageGamme": "Merci de choisir une Gamme"
+    },
+    "typeServ": {
+      "title": "Liste des Types Serv",
+      "requiredMessageName": "Merci de saisir un Nom",
+      "patternName": "Le nom ne doit contenir que des lettres, des chiffres et &$/-",
+      "patternLength": "Le nom du type de Servitude ne peut pas dépasser 10 caractères",
+      "placeholderName": "Nom"
+    },
+    "equipeur": {
+      "title": "Liste des Equipeurs",
+      "requiredMessage": "Merci de saisir un Nom",
+      "pattern": "Le nom ne doit contenir que des lettres, des chiffres et &$/-",
+      "placeholder": "Equipeur"
+    },
+    "reparationE": {
+      "title": "Liste des Réparations Engin"
+    },
+    "interventionE": {
+      "title": "Liste des Interventions Engin"
+    },
+    "affectPhy": {
+      "title": "Affectation Histo Phy",
+      "placeholderRegistration": "Immatriculation",
+      "placeholderAffectation": "Nom de l'Affectation",
+      "registration": "Immatriculation",
+      "requiredMessageImmat": "Merci de choisir une immatriculation",
+      "affectation": "Affectation",
+      "requiredMessageAffect": "Merci de choisir une Affectation"
+    },
+    "affectAdm": {
+      "title": "Affectation Histo ADM"
+    },
+    "affectGis": {
+      "title": "Affectation Histo Gisement"
+    },
+    "affectation": {
+      "title": "Liste des Affectations",
+      "shortName": "Affectation",
+      "code": "Code Centre",
+      "requiredMessageCode": "Merci de saisir un Code Centre",
+      "placeholderCode": "Code Centre",
+      "patternCode": "Le Code Centre ne doit contenir que des lettres, des chiffres et &$/-",
+      "requiredMessageLibelle": "Merci de saisir un Libelle",
+      "placeholderLibelle": "Libelle",
+      "patternLibelle": "Le Libelle ne doit contenir que des lettres, des chiffres et &$/-",
+      "requiredMessageDescription": "Merci de saisir une Description",
+      "placeholderDescription": "Description",
+      "patternDescription": "La Description ne doit contenir que des lettres, des chiffres et &$/-",
+      "requiredMessageAffect": "Merci de choisir une Affectation",
+      "placeholderAffect": "Affectation"
+    },
+    "garage": {
+      "title": "Liste Garage Engin"
+    },
+    "reparation": {
+      "title": "Liste des Réparations",
+      "requiredMessageCarrosserie": "Merci de sélectionner une carrosserie",
+      "placeholderCarrosserie": "Carrosserie",
+      "requiredMessageRegistration": "Merci de mettre l'immatriculation",
+      "placeholderRegistration": "Immatriculation",
+      "requiredMessageAdm": "Merci de mettre une Affectation Administrative",
+      "placeholderAdm": "Affectation Administrative",
+      "requiredMessagePhy": "Merci de mettre une Affectation Physique",
+      "placeholderPhy": "Affectation Physique",
+      "requiredMessageStatutTech": "Merci de mettre un Statut Tech",
+      "placeholderStatutTech": "Statut Tech",
+      "requiredMessageDateE": "Merci de saisir une date d'Entrée",
+      "requiredMessageRaison": "Merci de saisir une raison",
+      "patternRaison": "La Description de la raison ne doit contenir que des chiffres, des lettres, espace, - et /",
+      "placeholderRaison": "Description de la Raison",
+      "requiredMessageKm": "Merci de saisir un Kilomètrage",
+      "patternKm": "Le Kilomètrage ne doit contenir que des chiffres",
+      "placeholderKm": "Km",
+      "requiredMessageHr": "Merci de saisir un Hr",
+      "patternHr": "Le Hr ne doit contenir que des chiffres",
+      "placeholderHr": "Hr",
+      "requiredMessageDate": "Merci de saisir une Date",
+      "placeholderDate": "Date",
+      "requiredMessageDesignation": "Merci de saisir une Désignation",
+      "patternDesignation": "La Désignation ne doit contenir que des chiffres, des lettres, espace, - et /",
+      "placeholderDesignation": "Désignation",
+      "requiredMessageIntervenant": "Merci de choisir une intervenant",
+      "placeholderIntervenant": "Intervenants"
+    },
+    "detailReparation": {
+      "title": "Détail Réparation",
+      "registration": "Immatriculation",
+      "affectPhy": "Affectation Physique",
+      "affectAdm": "Affectation Administrative",
+      "carrosserie": "Carrosserie",
+      "dateE": "Date d'Entrée",
+      "km": "KM",
+      "hr": "HR",
+      "statutTech": "Statut Tech",
+      "raison": "Description de la raison"
+    },
+    "intervenant": {
+      "title": "Liste des Intervenants",
+      "placeholderNom": "Nom",
+      "requiredMessageNom": "Merci de saisir un Nom",
+      "patternNom": "Le Nom ne doit contenir que des chiffres, des lettres, espace, - et /",
+      "placeholderType": "Type Intervenant",
+      "requiredMessageType": "Merci de choisir le Type d'Intervenant"
+    },
+    "typeIntervenant": {
+      "title": "Liste Types Intervenants",
+      "placeholderType": "Catégorie",
+      "requiredMessageType": "Merci de saisir un Catégorie",
+      "patternType": "Le Nom ne doit contenir que des chiffres, des lettres, espace et :"
+    },
+    "gas": {
+      "title": "Liste Requêtes GAS"
+    },
+    "intervention": {
+      "title": "Liste Intervention",
+      "placeholderIntervenant": "Intervenant",
+      "requiredMessageIntervenant": "Merci de choisir un Intervenant",
+      "placeholderNature": "Nature Travaux",
+      "requiredMessageNature": "Merci de saisir la Nature des Travaux",
+      "patternNature": "La Nature Travaux ne doit contenir que des chiffres, des lettres, espace, - et /",
+      "placeholderObs": "Observation Chef",
+      "requiredMessageObs": "Merci de saisir l'Observation Chef",
+      "patternObs": "L'Observation Chef ne doit contenir que des chiffres, des lettres, espace, - et /",
+      "placeholderDate": "Date Fin Prev.",
+      "requiredMessageDate": "Merci de mettre une Date Fin Prev",
+      "requiredMessageDateS": "Merci de mettre une Date de Sortie",
+      "placeholderAtelier": "NB Heure Atelier",
+      "requiredMessageAtelier": "Merci de mettre le nombre d'heure Atelier",
+      "patternAtelier": "Le Nb Heure Atelier ne doit contenir que des chiffres"
+    }
+  },
+  "sider": {
+    "dashboard": "Dashboard",
+    "users": "Utilisateurs",
+    "gestionE": "Gestion Engin",
+    "appellation": "Appellation Commerciale",
+    "classification": "Classifications",
+    "category": "Catégories",
+    "commande": "Commandes",
+    "gestion": "Paramètres",
+    "document": "Documents",
+    "engin": "Engins",
+    "proprietaire": "Propriétaires",
+    "equipement": "Equipements",
+    "equipementEngin": "Equipements Engins",
+    "gamme": "Gammes",
+    "equipeur": "Equipeurs",
+    "marque": "Marques",
+    "typeOps": "Type OPS",
+    "typeTech": "Type Tech",
+    "typeServ": "Type Serv",
+    "attelage": "Type Attelage",
+    "reparationEngin": "Réparations Engin",
+    "interventionEngin": "Intervention Engin",
+    "affectation": "Affectations",
+    "garage": "Garage Engin",
+    "gestionR": "Gestion Réparation",
+    "reparation": "Réparations",
+    "intervenant": "Intervenant",
+    "typeInt": "Type Intervenant",
+    "intervention": "Interventions",
+    "gas": "Requête GAS",
+    "logs": "Logs"
+  },
+  "tabs": {
+    "details": "Détails",
+    "activeUsers": "Utilisateurs actifs",
+    "archivedUsers": "Utilisateurs archivés",
+    "users": "Utilisateurs",
+    "engin": "Engin",
+    "discoveries": "Actualités en page d'accueil",
+    "tags": "Tags",
+    "commande": "Commande",
+    "etatCommande": "Etat Commande",
+    "operation": "Informations Opérationnelles",
+    "administrative": "Informations Administratives",
+    "conformite": "Conformités/Levages",
+    "reparationEngin": "Réparations Engins",
+    "interventionEngin": "Interventions Engins",
+    "affectation": "Affectations Engin ADM/PHY",
+    "garage": "Garage Engin",
+    "file": "Documents Engins",
+    "raison": "Raison de la Réparation",
+    "intervention": "Intervention"
+  },
+  "components": {
+    "strengthIndicator": {
+      "status": {
+        "weak": "Complexité: faible",
+        "fair": "Complexité: passable",
+        "good": "Complexité: bonne",
+        "strong": "Complexité: forte"
+      },
+      "messages": {
+        "use_a_few_words": "Utilisez quelques mots, évitez les mots souvent utilisés ensemble.",
+        "no_need_for_mixed_chars": "Pas besoin de symboles, nombres, ou lettre en majuscule.",
+        "add_another_word": "Ajoutez un mot ou deux de préférence peu courants.",
+        "straight-rows": "Les alignements de touche sont faciles à deviner.",
+        "short-keyboard-patterns": "Les petits motifs de clavier sont faciles à deviner.",
+        "use-longer-keyboard-pattern": "Utilisez un motif sur la clavier plus long avec plus de changement de direction.",
+        "repeats-aaa": "Les répétitions du type \"aaa\" sont faciles à deviner.",
+        "repeats-abcabcabc": "Les répétitions du type \"abcabcabc\" sont à peine plus dures à deviner que \"abc\"",
+        "avoid-repeated-words": "Évitez de répéter des mots ou caractères.",
+        "sequences-abc-6543": "Les séquences du type \"abc\" ou \"6543\" sont faciles à deviner.",
+        "avoid-sequences": "Évitez les séquences.",
+        "recent-years": "Les années récentes sont faciles à deviner.",
+        "avoid-recent-years": "Évitez les années récentes.",
+        "avoid-personnal-years": "Évitez les années associés aux événements de votre vie.",
+        "dates": "Les dates sont souvent faciles à deviner.",
+        "avoid-personnal-dates-years": "Évitez les dates et années associées aux événements de votre vie.",
+        "top-10": "C'est l'un des 10 mot de passe les plus utilisés.",
+        "top-100": "C'est l'un des 100 mot de passe les plus utilisés.",
+        "very-common": "C'est un mot de passe très courant.",
+        "similar-common": "C'est similaire à un mot de passe courant.",
+        "word": "Un mot pris de manière isolé est facile à deviner.",
+        "names-surnames": "Les noms et surnoms pris de manière isolés sont faciles à deviner.",
+        "common-names-surnames": "Les noms courants et les surnoms sont faciles à deviner.",
+        "capitalization": "La capitalisation des caractères n'aide pas beaucoup.",
+        "all-uppercase": "Tout-majuscule est à peine plus dure à deviner que tout-minuscule.",
+        "reversed-words": "Les mots dont l'ordre des lettres est inversé sont à peine plus dure à deviner que le mot lui même.",
+        "predictable-substitutions": "Les substitutions prévisibles comme '@' à la place de 'a' n'aident pas beaucoup."
+      },
+      "advice": "Veuillez saisir au moins 8 caractères (incluant 1 majuscule, 1 minuscule, 1 caractère spécial et 1 chiffre) et ne pas utiliser de mots de passe faciles à deviner."
+    },
+    "tableLayout": {
+      "displayed-count": {
+        "elements": {
+          "singular": "{{length}} élément affiché",
+          "plural": "{{length}} éléments affichés"
+        },
+        "results": {
+          "singular": "{{length}} résultat trouvé",
+          "plural": "{{length}} résultats trouvés"
+        }
+      }
+    },
+    "associatedEquipments": {
+      "table": {
+        "name": "Équipement",
+        "consumption": "Consommation",
+        "operations": "Opérations"
+      }
+    }
+  }
+}
