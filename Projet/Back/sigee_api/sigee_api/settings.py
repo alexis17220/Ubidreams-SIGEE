@@ -118,10 +118,10 @@ DATABASES = {
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.oracle',
-#         'NAME': '(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.2.8.40)(PORT = 1521))'
+#         'NAME': '(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = HOST)(PORT = 1521))'
 #                 '(CONNECT_DATA =(SERVICE_NAME = ORCL12)))',
-#         'USER': 'SIGEE',
-#         'PASSWORD': 'S!g3e',
+#         'USER': 'User',
+#         'PASSWORD': 'Mdp',
 #     }
 # }
 
